@@ -8,7 +8,7 @@ Se desarrollaron dos algoritmos:
   * Determinar la cantidad de 0’s a la derecha de n! (factorial).
   * Dado un número entero, entregar su representación en palabras.
   
-Ambos algoritmos fueron desarrollados en lenguaje java y se encuentran en la carpeta programación. Estos se compilan de la siguiente manera
+Ambos algoritmos fueron desarrollados en lenguaje java. Estos se compilan de la siguiente manera
 
 ```
 $ javac count_ceros.java
