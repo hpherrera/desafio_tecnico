@@ -1,5 +1,6 @@
 CREATE TABLE Curso (
 	codigo int NOT NULL,
+	nombre varchar(255) NOT NULL,
 	codigo_profesor int NOT NULL,
 	PRIMARY KEY (codigo),
 	CONSTRAINT fk_Curso_Profesor FOREIGN KEY (codigo_profesor) REFERENCES Profesor (codigo)
@@ -7,6 +8,7 @@ CREATE TABLE Curso (
 
 CREATE TABLE Alumno (
 	codigo int NOT NULL,
+	nombre varchar(255) NOT NULL,
 	PRIMARY KEY (codigo) 
 );
 
@@ -30,6 +32,7 @@ CREATE TABLE Prueba (
 
 CREATE TABLE Profesor (
 	codigo int NOT NULL,
+	nombre varchar(255) NOT NULL,
 	PRIMARY KEY (codigo) 
 );
 
