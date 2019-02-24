@@ -1,9 +1,0 @@
-{
- "name": "apiHolamundo",
- "version": "0.0.1",
- "description": " Ejemplo hola mundo",
- "main": "server.js",
- "dependencies": {
-  "express": "latest"
- }
-}
